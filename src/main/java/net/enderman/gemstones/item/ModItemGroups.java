@@ -25,6 +25,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ALEXANDRITE);
                         entries.add(ModItems.VALUABLE_DETECTOR);
                         entries.add(ModItems.RUBY_STAFF);
+
                         entries.add(ModItems.RUBY_PICKAXE);
                         entries.add(ModItems.RUBY_AXE);
                         entries.add(ModItems.RUBY_HOE);

@@ -1,4 +1,4 @@
-// 1.20.6	2024-06-27T20:55:43.6760255	Endermans Gemstones/Model Definitions
+// 1.20.6	2024-06-27T21:23:57.5451794	Endermans Gemstones/Model Definitions
 0db0de97ef21b41604156c323ac24007e1d9a60c assets\gemstones\models\item\endstone_ruby_ore.json
 7cd3eb1a03ea6d07a88a48e8b41d9b6afd40f71e assets\gemstones\models\block\sapphire_wall_post.json
 566a1c175367555d8969b428807d56897d8cb79b assets\gemstones\models\item\sapphire_fence.json
@@ -71,8 +71,8 @@ ffb7f4ed0e70cd346351c7373e26d898c5aea1a8 assets\gemstones\models\block\ruby_wall
 2f3ae5c24f39b0c5ef80b7d1590ef258d0c8ae53 assets\gemstones\models\item\ruby_wall.json
 2b8af7a19cacc6b8f10e63b2ab11638ad9357181 assets\gemstones\models\block\ruby_ore.json
 d949e23b29527f0b7b1d9692d788a3010666c228 assets\gemstones\blockstates\ruby_fence_gate.json
-7cb3cb2008abb939ab3e3eda5884736314f68c14 assets\gemstones\models\block\sapphire_fence_gate_open.json
 bf3bc0af8ea5c6ba9dffb0834435b24f8756d78a assets\gemstones\models\item\ruby_shovel.json
+7cb3cb2008abb939ab3e3eda5884736314f68c14 assets\gemstones\models\block\sapphire_fence_gate_open.json
 a8d67652a75d92020d24d9b030c036765c2c5402 assets\gemstones\models\item\deepslate_sapphire_ore.json
 eb2e8553c650a25078cd37853863a5b1820c51fb assets\gemstones\models\block\sapphire_fence_gate_wall.json
 c8755a2634061aeb1d4cc080781f8a361678d9a6 assets\gemstones\models\block\ruby_fence_gate_open.json
@@ -84,9 +84,9 @@ bc5c3e92c574d8cce3c1d4de5a38ec81040f0095 assets\gemstones\models\block\sapphire_
 19ca3356fff93d2459077f41ada27d1d86f96c21 assets\gemstones\blockstates\ruby_door.json
 2f93be064fb15b7dfa3db18a0e59ed2e07fc4574 assets\gemstones\models\block\ruby_door_top_right.json
 38667368ebd33490228d856a370a7580163ba36a assets\gemstones\models\block\ruby_button_pressed.json
+ccce9bf16e70a291d2c78ae356cfe7723cd052e6 assets\gemstones\models\item\ruby_hoe.json
 b3c2766119cd77761b2b3b79f5c63296fe9dbd4a assets\gemstones\models\block\sapphire_fence_gate.json
 449d81a11efb7a8fc89e52a41056993cdacbcef0 assets\gemstones\models\block\sapphire_fence_post.json
-ccce9bf16e70a291d2c78ae356cfe7723cd052e6 assets\gemstones\models\item\ruby_hoe.json
 81078faaa828a75ff1634918ee08227978463ba1 assets\gemstones\blockstates\deepslate_ruby_ore.json
 322119408ccff7672bdb65176518ebf5f03cfa25 assets\gemstones\models\item\ruby_ore.json
 35b47ce0cdd5a054a28c98470fdddd2638b8191c assets\gemstones\blockstates\deepslate_sapphire_ore.json

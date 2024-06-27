@@ -8,19 +8,18 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    RUBY(5, 2500, 9.0F, 3.5F, 26, () -> Ingredient.ofItems(ModItems.RUBY)),
-    SAPPHIRE(5, 2200, 8.0F, 4.5F, 22, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    RUBY(2500, 9.0F, 3.5F, 26, () -> Ingredient.ofItems(ModItems.RUBY)),
+    SAPPHIRE(2200, 8.0F, 4.5F, 22, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
     ;
 
-    private final int miningLevel;
+
     private final int itemDurability;
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
-        this.miningLevel = miningLevel;
+    ModToolMaterial( int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
