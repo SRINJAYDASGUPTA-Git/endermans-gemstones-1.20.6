@@ -1,9 +1,10 @@
-// 1.20.6	2024-06-27T18:47:53.6009724	Endermans Gemstones/Tags for minecraft:block
+// 1.20.6	2024-06-27T20:55:43.6800319	Endermans Gemstones/Tags for minecraft:block
 36fbe34f752d7c56ee03bbf7bd8dd9f263a6e7d1 data\fabric\tags\blocks\needs_tool_level_4.json
-6ab69ff97ef13e7eda526e2797b8a9ccbfff25bb data\minecraft\tags\blocks\needs_iron_tool.json
 c3f4f46e8109d955e42c827bac1f86fbb9aee463 data\gemstones\tags\blocks\valuable_detector_detectable_blocks.json
-7d167f32e6327d5c1852bd2bf42afcc6eacc6620 data\minecraft\tags\blocks\fence_gates.json
+6ab69ff97ef13e7eda526e2797b8a9ccbfff25bb data\minecraft\tags\blocks\needs_iron_tool.json
 a642bcacfc06edcb5f8a766b60abfeca9fb1a23e data\minecraft\tags\blocks\fences.json
+e9a03caca8cc7d7fb71d1655a6a8e810b9ff56a9 data\fabric\tags\blocks\needs_tool_level_5.json
+7d167f32e6327d5c1852bd2bf42afcc6eacc6620 data\minecraft\tags\blocks\fence_gates.json
 cb0655d20dd8ac59ef90fa3720d41ab72d7ba763 data\minecraft\tags\blocks\mineable\pickaxe.json
-a3dc766f71a27b245cfeea68c8a69a0143614291 data\minecraft\tags\blocks\walls.json
 916a9c2140aac77e0ec98982cec301c091e85e8b data\minecraft\tags\blocks\needs_diamond_tool.json
+a3dc766f71a27b245cfeea68c8a69a0143614291 data\minecraft\tags\blocks\walls.json

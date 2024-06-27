@@ -5,8 +5,10 @@ import net.enderman.gemstones.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper.WrapperLookup;
@@ -93,5 +95,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModItems.SAPPHIRE)
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SAPPHIRE_BUTTON)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_AXE, 1).
+                criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).
+                pattern("XX").
+                pattern("XS").
+                pattern(" S").
+                input('X', ModItems.RUBY).
+                input('S', Ingredient.ofItems(Items.STICK)).
+                offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_HOE, 1).
+                criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).
+                pattern("XX").
+                pattern(" S").
+                pattern(" S").
+                input('X', ModItems.RUBY).
+                input('S', Ingredient.ofItems(Items.STICK)).
+                offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_HOE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE, 1).
+                criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).
+                pattern("XXX").
+                pattern(" S ").
+                pattern(" S ").
+                input('X', ModItems.RUBY).
+                input('S', Ingredient.ofItems(Items.STICK)).
+                offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL, 1).
+                criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).
+                pattern("X").
+                pattern("S").
+                pattern("S").
+                input('X', ModItems.RUBY).
+                input('S', Ingredient.ofItems(Items.STICK)).
+                offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SWORD, 1).
+                criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).
+                pattern("X").
+                pattern("X").
+                pattern("S").
+                input('X', ModItems.RUBY).
+                input('S', Ingredient.ofItems(Items.STICK)).
+                offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_SWORD)));
     }
 }
