@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gemstones:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "gemstones:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "gemstones:block/sapphire_slab_top"
+    }
+  }
+}

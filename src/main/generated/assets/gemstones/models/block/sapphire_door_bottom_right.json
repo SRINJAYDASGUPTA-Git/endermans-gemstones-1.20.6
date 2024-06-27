@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "gemstones:block/sapphire_door_bottom",
+    "top": "gemstones:block/sapphire_door_top"
+  }
+}

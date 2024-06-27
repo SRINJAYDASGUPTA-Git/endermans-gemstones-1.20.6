@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gemstones:ruby"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "gemstones:ruby_button"
+  }
+}

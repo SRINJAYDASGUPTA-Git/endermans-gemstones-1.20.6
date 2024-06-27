@@ -1,0 +1,9 @@
+{
+  "values": [
+    "gemstones:ruby_ore",
+    "gemstones:sapphire_ore",
+    "gemstones:raw_ruby_block",
+    "gemstones:ruby_block",
+    "gemstones:sapphire_block"
+  ]
+}

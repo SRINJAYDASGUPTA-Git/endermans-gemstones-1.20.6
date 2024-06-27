@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gemstones",
+	"version": "${version}",
+	"name": "Endermans Gemstones",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gemstones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.enderman.gemstones.EndermansGemstones"
+		],
+		"client": [
+			"net.enderman.gemstones.EndermansGemstonesClient"
+		],
+		"fabric-datagen": [
+			"net.enderman.gemstones.EndermansGemstonesDataGenerator"
+		]
+	},
+	"mixins": [
+		"gemstones.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

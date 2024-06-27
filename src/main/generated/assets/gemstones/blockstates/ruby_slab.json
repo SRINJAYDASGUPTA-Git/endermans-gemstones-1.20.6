@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gemstones:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "gemstones:block/ruby_block"
+    },
+    "type=top": {
+      "model": "gemstones:block/ruby_slab_top"
+    }
+  }
+}
