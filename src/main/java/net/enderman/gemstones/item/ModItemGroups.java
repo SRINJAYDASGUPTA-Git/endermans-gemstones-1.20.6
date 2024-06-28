@@ -26,11 +26,16 @@ public class ModItemGroups {
                         entries.add(ModItems.VALUABLE_DETECTOR);
                         entries.add(ModItems.RUBY_STAFF);
 
-//                        entries.add(ModItems.RUBY_PICKAXE);
-//                        entries.add(ModItems.RUBY_AXE);
-//                        entries.add(ModItems.RUBY_HOE);
-//                        entries.add(ModItems.RUBY_SHOVEL);
-//                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_HOE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
 
                         //Blocks
                         entries.add(ModBlocks.RUBY_BLOCK);

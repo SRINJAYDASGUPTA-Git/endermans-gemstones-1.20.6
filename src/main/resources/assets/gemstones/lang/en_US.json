@@ -8,11 +8,14 @@
   "item.gemstones.valuable_detector": "Valuable Detector",
   "item.gemstones.ruby_staff": "Ruby Staff",
   "item.gemstones.ruby_pickaxe": "Ruby Pickaxe",
-    "item.gemstones.ruby_axe": "Ruby Axe",
+  "item.gemstones.ruby_axe": "Ruby Axe",
   "item.gemstones.ruby_shovel": "Ruby Shovel",
-    "item.gemstones.ruby_hoe": "Ruby Hoe",
-    "item.gemstones.ruby_sword": "Ruby Sword",
-
+  "item.gemstones.ruby_hoe": "Ruby Hoe",
+  "item.gemstones.ruby_sword": "Ruby Sword",
+  "item.gemstones.ruby_helmet": "Ruby Helmet",
+    "item.gemstones.ruby_chestplate": "Ruby Chestplate",
+    "item.gemstones.ruby_leggings": "Ruby Leggings",
+    "item.gemstones.ruby_boots": "Ruby Boots",
 
 
   "block.gemstones.ruby_block": "Ruby Block",
