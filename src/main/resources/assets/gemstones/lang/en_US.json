@@ -46,5 +46,6 @@
   "block.gemstones.sapphire_fence_gate": "Sapphire Fence Gate",
   "block.gemstones.sapphire_trapdoor": "Sapphire Trapdoor",
   "block.gemstones.sapphire_door": "Sapphire Door",
-  "itemgroup.gemstone": "Gemstones"
+  "itemgroup.gemstone": "Gemstones",
+  "tooltip.gemstones.valuable_detector.tooltip": "Finds Valuables underground"
 }
